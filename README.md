@@ -8,7 +8,7 @@
 
 Cybersecurity undergraduate at **Asia Pacific University (APU)** focused on **reverse engineering, malware analysis, digital forensics and practical security testing**. Founder of **CYNX (CyberNexus)**, Vice President of **APU FSEC-SS**, and a CTF challenge creator who messes around with 0's and 1's.
 
-```yaml
+```python
 current_objectives = [
     "reverse engineer binaries and malwares for fun",
     "build CTF challenges and cope when AI one shots it",
