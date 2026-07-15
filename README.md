@@ -6,28 +6,28 @@
 
 ## `about.me`
 
-Cybersecurity undergraduate at **Asia Pacific University (APU)** focused on **reverse engineering, malware analysis, digital forensics and practical security testing**. Founder of **CYNX (Cybernexus)**, Vice President of **APU FSEC-SS**, and a CTF challenge creator who builds hands-on learning experiences.
+Cybersecurity undergraduate at **Asia Pacific University (APU)** focused on **reverse engineering, malware analysis, digital forensics and practical security testing**. Founder of **CYNX (CyberNexus)**, Vice President of **APU FSEC-SS**, and a CTF challenge creator who messes around with 0's and 1's.
 
-```text
+```yaml
 current_objectives = [
-    "reverse engineer binaries and malware",
-    "build CTF challenges that teach real techniques",
-    "improve detection through controlled attack simulation",
-    "grow practical cybersecurity education through CYNX",
+    "reverse engineer binaries and malwares for fun",
+    "build CTF challenges and cope when AI one shots it",
+    "simulate CVEs in isolated environments for self research ",
+    "trying to find a job 🥀",
 ]
 ```
 
-### Selected operations
+### My Experience (so far)
 
-| Area | Evidence |
+| Area | Summary |
 |---|---|
-| Security consulting | XDR and endpoint testing, virtual labs, attack simulation, vulnerability testing, malware research and NGFW evaluation |
-| CTF engineering | Reverse-engineering challenges delivered across seven cybersecurity events |
-| Competition | UMCS CTF 2026 Finalist; BATxAPU Cyber Kampung 2025 2nd; APU Internal CTF 2025 3rd |
+| Security Consulting Intern | XDR and endpoint testing, virtual labs, attack simulation, vulnerability testing, malware research and NGFW evaluation |
+| CTF Events | Reverse-engineering challenges delivered across many CTF competitions, both locally and internationally |
+| Competition | Some podiums once in a blue moon but mainly playing to learn more reversing techniques |
 | Leadership | Founder of CYNX and Vice President of APU FSEC-SS |
 
 ### Connect
 
 [LinkedIn](https://www.linkedin.com/in/koh-tom-han) · [CYNX](https://cynx.fun)
 
-<sub>The profile card is regenerated daily by <code>today.py</code> through GitHub Actions.</sub>
+<sub>Btw my profile card is regenerated daily by <code>today.py</code> through GitHub Actions.</sub>
