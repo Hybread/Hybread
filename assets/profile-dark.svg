@@ -12,6 +12,7 @@
     .metric { font-size: 27px; font-weight: 800; }
     .label { font-size: 11px; font-weight: 700; fill: #8b949e; letter-spacing: 0.8px; }
     .tiny { font-size: 12px; fill: #8b949e; }
+    .bread {font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif; font-size: 42px;}
   </style>
   <rect width="1000" height="620" rx="18" fill="#090b0e"/>
   <rect x="16" y="16" width="968" height="588" rx="14" fill="#10141a" stroke="#30363d"/>
@@ -26,25 +27,49 @@
   <!-- Header -->
   <text x="52" y="112" class="name" text-anchor="start">KOH TOM HAN</text>
   <text x="52" y="142" class="headline" text-anchor="start">CYBERSECURITY UNDERGRADUATE // REVERSE ENGINEERING</text>
+
+  <g transform="translate(875 80)" role="img" aria-label="Loaf of bread">
+    <path
+      d="M8 20C8 9 18 2 31 2h18c13 0 23 7 23 18v28c0 5-4 9-9 9H17c-5 0-9-4-9-9V20Z"
+      fill="#d99a52"
+      stroke="#ff4d6d"
+      stroke-width="2"
+    />
+    <path
+      d="M20 20c4-7 11-10 20-10s16 3 20 10"
+      fill="none"
+      stroke="#f4c978"
+      stroke-width="6"
+      stroke-linecap="round"
+    />
+    <path
+      d="M24 31l7 6M39 28l7 6M54 31l7 6"
+      fill="none"
+      stroke="#8a5a2b"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+  </g>
+
   <line x1="52" y1="162" x2="948" y2="162" stroke="#21262d"/>
 
   <!-- Left column -->
   <text x="52" y="202" class="prompt" text-anchor="start">$ whoami</text>
   <text x="69" y="231" class="body" text-anchor="start">Founder @ CYNX (CyberNexus)</text>
   <text x="69" y="256" class="body" text-anchor="start">Vice President @ APU FSEC-SS</text>
-  <text x="69" y="281" class="body" text-anchor="start">CTF Player + Challenge Creator</text>
+  <text x="69" y="281" class="body" text-anchor="start">CTF Player &amp; Challenge Creator</text>
 
   <text x="52" y="324" class="prompt" text-anchor="start">$ focus --current</text>
   <text x="69" y="353" class="body" text-anchor="start">Reverse Engineering &amp; Malware Analysis</text>
-  <text x="69" y="378" class="body" text-anchor="start">Digital Forensics &amp; Attack Simulation</text>
-  <text x="69" y="403" class="body" text-anchor="start">Practical Cybersecurity Research</text>
+  <text x="69" y="378" class="body" text-anchor="start">CTF Challenge Creation</text>
+  <text x="69" y="403" class="body" text-anchor="start">Learning IoT Hardware Reversing &amp; Embedded Security</text>
 
   <text x="52" y="446" class="prompt" text-anchor="start">$ stack</text>
   <text x="69" y="475" class="body" text-anchor="start">Windows / Kali / VMware ESXi / IDA / x64dbg / Python</text>
 
   <text x="52" y="518" class="prompt" text-anchor="start">$ status</text>
   <text x="69" y="547" class="body" text-anchor="start">BSc Cybersecurity @ APU // expected Sep 2026</text>
-  <text x="69" y="572" class="muted" text-anchor="start">7 CTF Competitions Contributed // 8 Ranked Results // 4 Languages</text>
+  <text x="69" y="572" class="muted" text-anchor="start">8 CTF Events Contributed // 8 Ranked Results // 4 Languages</text>
 
   <!-- Divider -->
   <line x1="520" y1="188" x2="520" y2="576" stroke="#21262d"/>
@@ -74,7 +99,7 @@
   <text x="550" y="517" class="body" text-anchor="start">BATxAPU Cyber Tradition ...... Top 5</text>
 
   <line x1="550" y1="544" x2="928" y2="544" stroke="#21262d"/>
-  <text x="550" y="570" class="tiny" text-anchor="start">4y on GitHub // updated 2026-07-15 17:16 UTC</text>
+  <text x="550" y="570" class="tiny" text-anchor="start">4y on GitHub // updated 2026-07-15 17:54 UTC</text>
   <rect x="931" y="558" width="9" height="14" fill="#7ee787">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
