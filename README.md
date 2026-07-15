@@ -1,8 +1,20 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-light.svg">
-  <img alt="Koh Tom Han - cybersecurity profile" src="./assets/profile-dark.svg" width="100%">
-</picture>
+<a href="https://github.com/Hybread/Hybread">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/profile-dark.svg"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./assets/profile-light.svg"
+    >
+    <img
+      alt="Koh Tom Han — Cybersecurity Profile"
+      src="./assets/profile-dark.svg"
+      width="100%"
+    >
+  </picture>
+</a>
 
 ## `about.me`
 
