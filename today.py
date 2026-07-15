@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-"""Generate a dynamic GitHub profile card for Koh Tom Han.
-
-The script queries GitHub's GraphQL API and writes light/dark SVG cards.
-It is designed to run from GitHub Actions using the built-in GITHUB_TOKEN.
-
-Local preview:
-    python today.py --preview
-
-Live generation:
-    GITHUB_USERNAME=your-user GITHUB_TOKEN=ghp_xxx python today.py
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -32,20 +20,24 @@ PROFILE = {
     "name": "KOH TOM HAN",
     "headline": "CYBERSECURITY UNDERGRADUATE // REVERSE ENGINEERING",
     "identity": [
-        "Founder @ CYNX (Cybernexus)",
+        "Founder @ CYNX (CyberNexus)",
         "Vice President @ APU FSEC-SS",
-        "CTF competitor + challenge creator",
+        "CTF Player + Challenge Creator",
     ],
     "focus": [
-        "Reverse engineering & malware analysis",
-        "Digital forensics & attack simulation",
-        "Practical cybersecurity education",
+        "Reverse Engineering & Malware Analysis",
+        "Digital Forensics & Attack Simulation",
+        "Practical Cybersecurity Research",
     ],
-    "stack": "Linux / Kali / VMware ESXi / XDR / NGFW / Python",
+    "stack": "Windows / Kali / VMware ESXi / IDA / x64dbg / Python",
     "achievements": [
+        "BATxAPU Cyber Kampung 2025 ... 1st Runner-up",
+        "APU Internal CTF 2025 ........ 2nd Runner-up",
+        "BATxAPU Cyber Tradition ...... Top 5",
+        "Sunway CTF 2025 .............. Top 10",
+        "Barqsec System Override ...... Top 10",
+        "Curtin CTF 2025 .............. Top 16",
         "UMCS CTF 2026 ................ Finalist",
-        "BATxAPU Cyber Kampung 2025 ... 2nd Place",
-        "APU Internal CTF 2025 ........ 3rd Place",
     ],
     "ctf_challenges": 7,
     "ctf_results": 8,
@@ -292,7 +284,7 @@ def build_svg(stats: GitHubStats, mode: str) -> str:
 
   {text(52, 518, '$ status', 'prompt')}
   {text(69, 547, status, 'body')}
-  {text(69, 572, f'{PROFILE["ctf_challenges"]} CTF challenges delivered // {PROFILE["ctf_results"]} ranked results // {PROFILE["languages"]} languages', 'muted')}
+  {text(69, 572, f'{PROFILE["ctf_challenges"]} CTF Competitions Contributed // {PROFILE["ctf_results"]} Ranked Results // {PROFILE["languages"]} Languages', 'muted')}
 
   <!-- Divider -->
   <line x1="520" y1="188" x2="520" y2="576" stroke="{p['grid']}"/>
