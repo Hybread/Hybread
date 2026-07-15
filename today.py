@@ -22,12 +22,12 @@ PROFILE = {
     "identity": [
         "Founder @ CYNX (CyberNexus)",
         "Vice President @ APU FSEC-SS",
-        "CTF Player + Challenge Creator",
+        "CTF Player & Challenge Creator",
     ],
     "focus": [
         "Reverse Engineering & Malware Analysis",
-        "Digital Forensics & Attack Simulation",
-        "Practical Cybersecurity Research",
+        "CTF Challenge Creation",
+        "Learning IoT Hardware Reversing & Embedded Security",
     ],
     "stack": "Windows / Kali / VMware ESXi / IDA / x64dbg / Python",
     "achievements": [
@@ -39,7 +39,7 @@ PROFILE = {
         "Curtin CTF 2025 .............. Top 16",
         "UMCS CTF 2026 ................ Finalist",
     ],
-    "ctf_challenges": 7,
+    "ctf_challenges": 8,
     "ctf_results": 8,
     "languages": 4,
     "graduation": date(2026, 9, 1),
@@ -286,7 +286,7 @@ def build_svg(stats: GitHubStats, mode: str) -> str:
 
   {text(52, 518, '$ status', 'prompt')}
   {text(69, 547, status, 'body')}
-  {text(69, 572, f'{PROFILE["ctf_challenges"]} CTF Competitions Contributed // {PROFILE["ctf_results"]} Ranked Results // {PROFILE["languages"]} Languages', 'muted')}
+  {text(69, 572, f'{PROFILE["ctf_challenges"]} CTF Events Contributed // {PROFILE["ctf_results"]} Ranked Results // {PROFILE["languages"]} Languages', 'muted')}
 
   <!-- Divider -->
   <line x1="520" y1="188" x2="520" y2="576" stroke="{p['grid']}"/>
