@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Koh Tom Han cybersecurity GitHub profile</title>
+  <desc id="desc">Dynamic profile card with GitHub statistics, cybersecurity interests, leadership and CTF achievements.</desc>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; fill: #e6edf3; }
+    .name { font-size: 34px; font-weight: 800; letter-spacing: 1.4px; }
+    .headline { font-size: 15px; font-weight: 700; fill: #ff4d6d; letter-spacing: 0.7px; }
+    .prompt { font-size: 16px; font-weight: 700; fill: #7ee787; }
+    .body { font-size: 15px; }
+    .muted { font-size: 13px; fill: #8b949e; }
+    .section { font-size: 14px; font-weight: 800; fill: #ff4d6d; letter-spacing: 1px; }
+    .metric { font-size: 27px; font-weight: 800; }
+    .label { font-size: 11px; font-weight: 700; fill: #8b949e; letter-spacing: 0.8px; }
+    .tiny { font-size: 12px; fill: #8b949e; }
+  </style>
+  <rect width="1000" height="620" rx="18" fill="#090b0e"/>
+  <rect x="16" y="16" width="968" height="588" rx="14" fill="#10141a" stroke="#30363d"/>
+
+  <!-- Terminal title bar -->
+  <rect x="16" y="16" width="968" height="45" rx="14" fill="#0d1117"/>
+  <circle cx="43" cy="38" r="6" fill="#ff4d6d"/>
+  <circle cx="63" cy="38" r="6" fill="#8b949e"/>
+  <circle cx="83" cy="38" r="6" fill="#7ee787"/>
+  <text x="500" y="43" class="tiny" text-anchor="middle">YOUR_GITHUB_USERNAME@github: ~/profile</text>
+
+  <!-- Header -->
+  <text x="52" y="112" class="name" text-anchor="start">KOH TOM HAN</text>
+  <text x="52" y="142" class="headline" text-anchor="start">CYBERSECURITY UNDERGRADUATE // REVERSE ENGINEERING</text>
+  <line x1="52" y1="162" x2="948" y2="162" stroke="#21262d"/>
+
+  <!-- Left column -->
+  <text x="52" y="202" class="prompt" text-anchor="start">$ whoami</text>
+  <text x="69" y="231" class="body" text-anchor="start">Founder @ CYNX (Cybernexus)</text>
+  <text x="69" y="256" class="body" text-anchor="start">Vice President @ APU FSEC-SS</text>
+  <text x="69" y="281" class="body" text-anchor="start">CTF competitor + challenge creator</text>
+
+  <text x="52" y="324" class="prompt" text-anchor="start">$ focus --current</text>
+  <text x="69" y="353" class="body" text-anchor="start">Reverse engineering &amp; malware analysis</text>
+  <text x="69" y="378" class="body" text-anchor="start">Digital forensics &amp; attack simulation</text>
+  <text x="69" y="403" class="body" text-anchor="start">Practical cybersecurity education</text>
+
+  <text x="52" y="446" class="prompt" text-anchor="start">$ stack</text>
+  <text x="69" y="475" class="body" text-anchor="start">Linux / Kali / VMware ESXi / XDR / NGFW / Python</text>
+
+  <text x="52" y="518" class="prompt" text-anchor="start">$ status</text>
+  <text x="69" y="547" class="body" text-anchor="start">BSc Cybersecurity @ APU // expected Sep 2026</text>
+  <text x="69" y="572" class="muted" text-anchor="start">7 CTF challenges delivered // 8 ranked results // 4 languages</text>
+
+  <!-- Divider -->
+  <line x1="520" y1="188" x2="520" y2="576" stroke="#21262d"/>
+
+  <!-- Right column stats -->
+  <text x="550" y="202" class="section" text-anchor="start">GITHUB TELEMETRY</text>
+
+      <rect x="550" y="220" width="180" height="82" rx="10" fill="#0d1117" stroke="#30363d"/>
+      <text x="566" y="251" class="metric" text-anchor="start">14</text>
+      <text x="566" y="278" class="label" text-anchor="start">PUBLIC REPOS</text>
+    
+      <rect x="748" y="220" width="180" height="82" rx="10" fill="#0d1117" stroke="#30363d"/>
+      <text x="764" y="251" class="metric" text-anchor="start">23</text>
+      <text x="764" y="278" class="label" text-anchor="start">TOTAL STARS</text>
+    
+      <rect x="550" y="316" width="180" height="82" rx="10" fill="#0d1117" stroke="#30363d"/>
+      <text x="566" y="347" class="metric" text-anchor="start">287</text>
+      <text x="566" y="374" class="label" text-anchor="start">CONTRIB 2026</text>
+    
+      <rect x="748" y="316" width="180" height="82" rx="10" fill="#0d1117" stroke="#30363d"/>
+      <text x="764" y="347" class="metric" text-anchor="start">18</text>
+      <text x="764" y="374" class="label" text-anchor="start">FOLLOWERS</text>
+    
+  <text x="550" y="432" class="section" text-anchor="start">FIELD NOTES</text>
+  <text x="550" y="463" class="body" text-anchor="start">UMCS CTF 2026 ................ Finalist</text>
+  <text x="550" y="490" class="body" text-anchor="start">BATxAPU Cyber Kampung 2025 ... 2nd Place</text>
+  <text x="550" y="517" class="body" text-anchor="start">APU Internal CTF 2025 ........ 3rd Place</text>
+
+  <line x1="550" y1="544" x2="928" y2="544" stroke="#21262d"/>
+  <text x="550" y="570" class="tiny" text-anchor="start">4y on GitHub // updated 2026-07-15 16:50 UTC</text>
+  <rect x="931" y="558" width="9" height="14" fill="#7ee787">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
