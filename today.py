@@ -252,6 +252,7 @@ def build_svg(stats: GitHubStats, mode: str) -> str:
     .metric {{ font-size: 27px; font-weight: 800; }}
     .label {{ font-size: 11px; font-weight: 700; fill: {p['muted']}; letter-spacing: 0.8px; }}
     .tiny {{ font-size: 12px; fill: {p['muted']}; }}
+    .bread {{font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif; font-size: 42px;}}
   </style>
   <rect width="1000" height="620" rx="18" fill="{p['background']}"/>
   <rect x="16" y="16" width="968" height="588" rx="14" fill="{p['panel']}" stroke="{p['border']}"/>
@@ -266,6 +267,7 @@ def build_svg(stats: GitHubStats, mode: str) -> str:
   <!-- Header -->
   {text(52, 112, PROFILE['name'], 'name')}
   {text(52, 142, PROFILE['headline'], 'headline')}
+  {text(938, 125, '🍞', 'bread', 'end')}
   <line x1="52" y1="162" x2="948" y2="162" stroke="{p['grid']}"/>
 
   <!-- Left column -->
