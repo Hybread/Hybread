@@ -267,7 +267,30 @@ def build_svg(stats: GitHubStats, mode: str) -> str:
   <!-- Header -->
   {text(52, 112, PROFILE['name'], 'name')}
   {text(52, 142, PROFILE['headline'], 'headline')}
-  {text(938, 125, '🍞', 'bread', 'end')}
+
+  <g transform="translate(875 80)" role="img" aria-label="Loaf of bread">
+    <path
+      d="M8 20C8 9 18 2 31 2h18c13 0 23 7 23 18v28c0 5-4 9-9 9H17c-5 0-9-4-9-9V20Z"
+      fill="#d99a52"
+      stroke="{p['accent']}"
+      stroke-width="2"
+    />
+    <path
+      d="M20 20c4-7 11-10 20-10s16 3 20 10"
+      fill="none"
+      stroke="#f4c978"
+      stroke-width="6"
+      stroke-linecap="round"
+    />
+    <path
+      d="M24 31l7 6M39 28l7 6M54 31l7 6"
+      fill="none"
+      stroke="#8a5a2b"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+  </g>
+
   <line x1="52" y1="162" x2="948" y2="162" stroke="{p['grid']}"/>
 
   <!-- Left column -->
