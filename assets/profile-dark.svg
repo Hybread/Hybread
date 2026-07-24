@@ -99,7 +99,7 @@
   <text x="550" y="517" class="body" text-anchor="start">BATxAPU Cyber Tradition ...... Top 5</text>
 
   <line x1="550" y1="544" x2="928" y2="544" stroke="#21262d"/>
-  <text x="550" y="570" class="tiny" text-anchor="start">4y on GitHub // updated 2026-07-23 03:47 UTC</text>
+  <text x="550" y="570" class="tiny" text-anchor="start">4y on GitHub // updated 2026-07-24 03:47 UTC</text>
   <rect x="931" y="558" width="9" height="14" fill="#7ee787">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
