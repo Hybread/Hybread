@@ -27,7 +27,7 @@ PROFILE = {
     "focus": [
         "Reverse Engineering & Malware Analysis",
         "CTF Challenge Creation",
-        "Learning IoT Hardware Reversing & Embedded Security",
+        "Vulnerability Research & Bug Bounty",
     ],
     "stack": "Windows / Kali / VMware ESXi / IDA / x64dbg / Python",
     "achievements": [
