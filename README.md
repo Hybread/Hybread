@@ -24,8 +24,8 @@ Cybersecurity undergraduate at **Asia Pacific University (APU)** focused on **re
 current_objectives = [
     "reverse engineer binaries and malwares for fun",
     "build CTF challenges and cope when AI one shots it",
-    "simulate CVEs in isolated environments for self research",
-    "learn IoT hardware reversing",
+    "vulnerability research & bug bounty during my free time",
+    "learn and master Japanese, (hopefully N3 by Q2 next year)",
     "trying to find a job 🥀",
 ]
 ```
